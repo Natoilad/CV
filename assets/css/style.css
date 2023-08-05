@@ -1193,6 +1193,14 @@ section {
   /* transform: translate(-50%, -50%); */
 }
 
+.sendMessage {
+  background-color: rgba(20, 157, 221, 0.8);
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  position: fixed;
+}
+
 .input_form {
   outline: none;
 }

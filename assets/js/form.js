@@ -13,6 +13,8 @@ document
     let email = document.getElementById('email').value;
     let message = document.getElementById('message').value;
 
+    let sendMessage = document.getElementById('sendMessage');
+    sendMessage.style.display = 'block';
     try {
       const response = await fetch(
         'https://sendformtemplate.onrender.com/api/help',
@@ -40,6 +42,7 @@ document
       phoneField.value = '';
       emailField.value = '';
       messageField.value = '';
+      sendMessage.style.display = 'none';
     } catch (error) {
       console.log('Error', error);
     }
