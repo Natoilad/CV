@@ -12,10 +12,13 @@
     <link href="assets/img/favicon.png" rel="icon" />
 
     <!-- Google Fonts -->
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
-    />
+    /> -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway:wght@200;300;400;500;600;700&display=swap');
+    </style>
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
@@ -36,14 +39,6 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
-
-    <!-- =======================================================
-  * Template Name: iPortfolio
-  * Updated: May 30 2023 with Bootstrap v5.3.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
   </head>
 
   <body>
@@ -103,11 +98,7 @@
                 ><i class="bx bx-user"></i> <span>About</span></a
               >
             </li>
-            <li>
-              <a href="#resume" class="nav-link scrollto"
-                ><i class="bx bx-file-blank"></i> <span>Resume</span></a
-              >
-            </li>
+
             <li>
               <a href="#portfolio" class="nav-link scrollto"
                 ><i class="bx bx-book-content"></i> <span>Portfolio</span></a
@@ -420,66 +411,6 @@
       </section>
       <!-- End Skills Section -->
 
-      <!-- ======= Resume Section ======= -->
-      <section id="resume" class="resume">
-        <div class="container">
-          <div class="section-title">
-            <h2>Resume</h2>
-            <p>
-              I am a full stack developer, looking for a full-time or part-time
-              job or project work at business of the company. I know HTML, CSS,
-              JavaScript, React, Node.js. I am a quick learner, and ready to
-              perform complex tasks. Responsible.
-            </p>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">Professional Experience</h3>
-              <div class="resume-item">
-                <h4>Fullstack Develope</h4>
-                <h5>2022- Present</h5>
-                <p><em>IT School GoIT (Ukraine) </em></p>
-                <ul>
-                  <li>HTML5/CSS3/SASS</li>
-                  <li>Responsive/Adaptive design</li>
-                  <li>GitHub</li>
-                  <li>JavaScript</li>
-                  <li>React</li>
-                  <li>Node.js</li>
-                  <li>WordPress</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-6" data-aos="fade-up">
-              <h3 class="resume-title">WORK EXPERIENCE</h3>
-              <div class="resume-item pb-0">
-                <h4>Serhii Natoilad</h4>
-                <p>
-                  <em>Sales manager at EasyMac online store.</em>
-                </p>
-                <ul>
-                  <li>March 2018 - November 2021</li>
-                  <li>Ukraine</li>
-                </ul>
-              </div>
-
-              <h3 class="resume-title">Education</h3>
-              <div class="resume-item">
-                <h4>
-                  Odesa National Academy of Communication named after O.S.
-                  Popova
-                </h4>
-                <h5>September 2007 - June 2011</h5>
-                <p><em>Information communication networks</em></p>
-                <p>Odesa</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Resume Section -->
-
       <!-- ======= Portfolio Section ======= -->
       <section id="portfolio" class="portfolio section-bg">
         <div class="container">
@@ -510,6 +441,56 @@
             data-aos="fade-up"
             data-aos-delay="100"
           >
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-5.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-5.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Vivat service"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="https://vivat.netlify.app/animate.html"
+                    title="Vivat service "
+                    target="_blank"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-7.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-7.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="hermeier"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="https://hermeier.netlify.app/demo.html"
+                    title="hermeier"
+                    target="_blank"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
@@ -610,31 +591,6 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-react">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-7.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-7.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="Trending movies"
-                    ><i class="bx bx-plus"></i
-                  ></a>
-                  <a
-                    href="https://natoilad.github.io/goit-react-hw-05-movies"
-                    title="Trending movies"
-                    target="_blank"
-                    ><i class="bx bx-link"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
                 <img
@@ -700,31 +656,6 @@
                   <a
                     href="https://natoilad.github.io/goit-markup-hw-08"
                     title="WebStudio"
-                    target="_blank"
-                    ><i class="bx bx-link"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-5.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-5.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="ICE CREAM"
-                    ><i class="bx bx-plus"></i
-                  ></a>
-                  <a
-                    href="https://alexxxusachev888.github.io/ice-cream-shop"
-                    title="ICE CREAM "
                     target="_blank"
                     ><i class="bx bx-link"></i
                   ></a>
@@ -813,11 +744,7 @@
                   placeholder="Message"
                   name="message"
                 ></textarea>
-                <input
-                  class="sendMail border-0"
-                  type="submit"
-                  value="Відправити"
-                />
+                <input class="sendMail border-0" type="submit" value="Submit" />
               </form>
               <div
                 class="sendMessage modal"

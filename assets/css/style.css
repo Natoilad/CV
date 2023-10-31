@@ -1207,3 +1207,7 @@ section {
 .input_form:focus-visible {
   border-bottom: 1px solid #149ddd !important;
 }
+
+nav a:hover {
+  padding-left: 30px;
+}
